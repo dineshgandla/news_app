@@ -1,0 +1,71 @@
+.footerMain{
+    width: 100%;
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footerContainer{
+    background-color: rgba(30, 15, 44, 0.861);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footerLink:hover{
+    cursor: pointer;
+    color: crimson;
+    transition: 0.3s ease-in-out;
+}
+.links ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+.socialList{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.socialIcon{
+    margin-right: 5px;
+}
+.contactNumber{
+    display: flex;
+    align-items: center;
+}
+.emailId{
+    display: flex;
+    align-items: center;
+}
+.contactNumber,
+.emailId:hover{
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+@media screen and (max-width:600px){
+    .footerMain{
+        font-size: 0.7em;
+    }
+   
+}
+@media(max-width:380px){
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links>ul{
+        padding: 0;
+        margin: 5px 0;
+    }
+}

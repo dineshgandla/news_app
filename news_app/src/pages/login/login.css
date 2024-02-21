@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+
+.loginform-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(209, 248, 237);
+    
+  }
+  
+.login-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:28%;
+    border-radius:10px;
+    background-color:white;
+    
+}
+.field
+{
+    margin-top:13px;
+}
+
+.login-btn
+{
+  width:100%;
+  margin-top:40px;
+  padding:3px;
+  background-color:rgb(106, 106, 245);
+  color:white;
+  border:none;
+  border-radius:2px;
+  cursor:pointer;
+  
+}
+
+
+.login-btn:hover{
+    filter:opacity(0.9);
+}
+
+
+
+input:focus{
+    outline:none;
+}
+
+.forgot-password
+{
+    text-align:center;
+    margin-top:20px;
+    color:blue;
+    cursor:pointer;
+    text-decoration: none;
+    cursor:pointer;
+    
+}
+
+.forgot-link{
+    text-decoration:none;
+}
+
+.final-text
+{
+    text-align:center;
+}
+
+.register-link
+{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.login-heading
+{
+    margin-top:15px;
+}
+
+
+
+
+.span {
+    visibility: hidden; 
+  }
+  
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

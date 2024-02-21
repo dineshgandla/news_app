@@ -1,0 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&family=Playfair:ital,wght@0,300;1,400&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&family=Open+Sans:ital,wght@0,500;0,700;1,500&family=Playfair:ital,wght@0,300;1,400&family=Poppins:wght@400;500;600;700&family=Roboto+Slab&family=Rubik:wght@300;400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap');
+
+.app{
+    font-family:Playfair ;
+    
+}
+*{
+    font-family: 'Roboto Slab', serif;
+}

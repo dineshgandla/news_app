@@ -1,0 +1,15 @@
+.newsFeed{
+    display: flex;
+    justify-content: space-evenly;
+    
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+@media screen and (max-width:600px){
+    .newsFeed{
+        gap: 5px;
+        width: 100%;
+    }
+}
